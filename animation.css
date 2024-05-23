@@ -1,0 +1,17 @@
+/* CSS for Card Hover Effect */
+.card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: transparent; /* Set background color to transparent on hover */
+  }
+  
+  /* Hide the background and only show the border on hover */
+  .card:hover {
+    background-color: transparent; /* Set background color of card body to transparent on hover */
+    border: 1px solid #ccc; /* Add border on hover */
+  }
+  
